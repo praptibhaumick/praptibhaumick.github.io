@@ -1,0 +1,60 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Prapti Bhaumick'
+theme="PaperMod"
+[params]
+  env = 'production'
+  description = 'Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod'
+  author = 'Theme PaperMod'
+  defaultTheme = 'auto'
+  ShowShareButtons = true
+  ShowReadingTime = true
+  displayFullLangName = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  ShowAllPagesInArchive = true
+  ShowPageNums = true
+  ShowToc = true
+  math = true
+
+  [params.profileMode]
+    enabled = false
+
+  [params.homeInfoParams]
+    enabled = false
+    Title = 'Prelude'
+    Content = '''
+Hi, I’m Prapti Bhaumick, a writer and content professional with a strong background in academic research, digital content creation, and education-focused writing. Over the past several years, I’ve worked with clients across the globe, creating well-researched, original, and engaging content in areas such as management, healthcare, social sciences, and literature.
+
+-
+
+
+My work ranges from academic writing and editing to SEO-friendly web content, blogs, and educational materials. I enjoy breaking down complex ideas into clear, structured, and reader-friendly content—whether it’s for students, professionals, or online audiences. Quality, originality, and meeting deadlines are central to how I work.
+
+-
+
+I hold a Master’s degree in English Literature and am a published writer, with contributions to digital magazines and co-authorship in multiple anthologies. Alongside academic projects, I’ve also supported brands and platforms with content that aligns with their voice, goals, and audience needs.
+
+At the core, I’m someone who values clarity, research, and thoughtful communication. If you’re looking for content that is reliable, well-crafted, and purpose-driven, you’re in the right place.
+
+-
+
+Link to my published article: 
+
+- https://www.globalbrandsmagazine.com/top-10-clothing-brands-for-women/
+- https://cpraedcourse.com/blog/everything-you-need-to-know-about-online-cpr-certification-for-heathcare-providers/
+
+'''
+[languages]
+  [languages.en]
+    languageName = 'English'
+    weight = 1
+    [languages.en.taxonomies]
+      category = 'categories'
+      tag = 'tags'
+      series = 'series'
+    [[languages.en.menu.main]]
+      name = 'CV'
+      url = '/cv-2026.pdf'
